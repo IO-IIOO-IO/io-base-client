@@ -27,6 +27,8 @@ reconnect = inject (args...) ->
   shoe args...
 
 reconnect (stream) ->
+  s.pipe stream
+  .pipe s
   d.pipe s.createStream 'dnode'
   .pipe d
 .connect 'https://io.iioo.io/engine'
