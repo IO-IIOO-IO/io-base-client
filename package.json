@@ -1,0 +1,30 @@
+{
+  "name": "io-base-client",
+  "version": "0.0.1",
+  "description": "shoe + oc-mux-demux",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IO-IIOO-IO/io-base-client.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IO-IIOO-IO/io-base-client/issues"
+  },
+  "homepage": "https://github.com/IO-IIOO-IO/io-base-client",
+  "dependencies": {
+    "dnode": "^1.2.0",
+    "oc-mux-demux": "0.0.2",
+    "reconnect-core": "^0.2.1",
+    "shoe": "0.0.15"
+  },
+  "devDependencies": {
+    "coffee-loader": "^0.7.2",
+    "coffee-script": "^1.9.0",
+    "webpack": "^1.5.3"
+  }
+}
